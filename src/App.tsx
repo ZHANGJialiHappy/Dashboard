@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
-import LineChart from './pages/LineChart';
+import Linechart from './pages/Linechart';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/lineChart" element={<LineChart/>}/>
+          <Route path="/linechart" element={<Linechart/>}/>
         </Routes>
       </BrowserRouter>
     </div>
