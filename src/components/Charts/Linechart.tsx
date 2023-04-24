@@ -1,12 +1,16 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { lineChartData } from '../data/dummy';
+import { lineChartData } from '../../data/dummy';
 
-function Linechart() {
+type Props = {
+    width: string;
+}
+
+function Linechart({width}: Props) {
   return (
-    <ResponsiveContainer width="100%" aspect={3}>
+    <ResponsiveContainer width={width} aspect={3}>
       <LineChart
-        width={500}
-        height={300}
+        width={10}
+        height={30}
         data={lineChartData}
         margin={{
           top: 5,

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
-import Linechart from './pages/Linechart';
+import Linechart from './pages/Line';
 import Navbar from './components/Navbar';
 
 function App() {
