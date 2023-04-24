@@ -24,8 +24,10 @@ function Linechart({width}: Props) {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
-        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="Users" stroke="#36B4EA" activeDot={{ r: 8 }} />
+        <Line type="monotone" dataKey="Unsubscribers" stroke="#FF0000" />
+        <Line type="monotone" dataKey="Trial" stroke="#82CA9D" />
+
       </LineChart>
     </ResponsiveContainer>
   )
