@@ -1,10 +1,10 @@
-import { LineChart, Line } from 'recharts';
-import { revenueData } from "../data/dummy";
+import { LineChart, Line, BarChart, Bar } from 'recharts';
+import { earningData, revenueData } from "../data/dummy";
 import earning from "../data/earning.svg"
 
 function Dashboard() {
   return (
-    <div className="mt-5 ml-5 bg-main-bg flex justify-center">
+    <div className="mt-5 m-5 bg-main-bg flex justify-center">
       <div className="m-5">
         <div className="card card-side w-80 bg-base-100 shadow-xl">
           <div className="card-body">
@@ -17,9 +17,9 @@ function Dashboard() {
           <figure><img src={earning} alt="earning" /></figure>
         </div>
         <div className="mt-5">
-          <div className="card w-80 bg-base-100 shadow-xl">
+          <div className="card card-side items-end w-auto bg-base-100 shadow-xl">
             <div className="card-body">
-              <p className="font-semibold"> Revenue Update </p>
+              <p className="font-semibold">Revenue Update</p>
               <div>
                 <p>
                   <span className="text-3xl font-semibold">DKK 40,000</span>
@@ -34,7 +34,7 @@ function Dashboard() {
                 <p className="text-gray-400 mt-1">Expense</p>
               </div>
               <LineChart
-                width={300}
+                width={200}
                 height={100}
                 data={revenueData}
                 margin={{
@@ -51,6 +51,13 @@ function Dashboard() {
                 <button className="rounded bg-sky-400 opacity-0.9 text-sky-100 hover:drop-shadow-xl p-2 ">Download Report</button>
               </div>
             </div>
+            <div className="m-5">
+            <p className="text-3xl font-semibold mb-20">DKK 40,000</p>
+            <BarChart width={200} height={200} data={earningData}>
+          <Bar dataKey="Earning" fill="#36B4EA" />
+        </BarChart>
+            </div>
+
           </div>
 
 

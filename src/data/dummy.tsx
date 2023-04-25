@@ -17,6 +17,21 @@ export const revenueData = [
     },
   ];
 
+export const earningData =[
+  {
+    name: 'January',
+    Earning: 400000,
+  },
+  {
+    name: 'Feburary',
+    Earning: 500000,
+  },
+  {
+    name: 'March',
+    Earning: 600000,
+  },
+]
+
 export const usersData = [
   {
     name: 'January',
