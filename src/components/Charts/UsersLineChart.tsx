@@ -8,7 +8,7 @@ type Props = {
     vertical: boolean;
 }
 
-function Linechart({width, height, horizontal, vertical} : Props) {
+function UsersLinechart({width, height, horizontal, vertical} : Props) {
   return (
       <LineChart
         width={width}
@@ -33,4 +33,4 @@ function Linechart({width, height, horizontal, vertical} : Props) {
   )
 }
 
-export default Linechart;
+export default UsersLinechart;

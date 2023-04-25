@@ -9,7 +9,7 @@ function Navbar() {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
       <li><Link to="/usersreport">Users' Report</Link></li>
-      <li><Link to="/earningreport">Earning Report</Link></li>
+      <li><Link to="/profitreport">Profit Report</Link></li>
     </ul>
   </div>
 </div>

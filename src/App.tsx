@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './components';
-import { Dashboard, EarningReport, UsersReport } from './pages';
+import { Dashboard, ProfitReport, UsersReport } from './pages';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard/>}/>
           <Route path="/usersreport" element={<UsersReport/>}/>
-          <Route path="/earningreport" element={<EarningReport/>}/>
+          <Route path="/earningreport" element={<ProfitReport/>}/>
         </Routes>
       </BrowserRouter>
     </div>

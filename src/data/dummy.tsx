@@ -1,33 +1,147 @@
 
-export const revenueData = [
+export const quarterlyRevenueData = [
     {
-      name: 'January',
+      name: 'Oct',
       Budget: 40000,
       Expense: 30000,
     },
     {
-      name: 'Feburary',
+      name: 'Nov',
       Budget: 50000,
       Expense: 40000,
     },
     {
-      name: 'March',
+      name: 'Dec',
       Budget: 40000,
       Expense: 40000,
     },
   ];
 
-export const earningData =[
+  export const yearlyRevenueData = [
+    {
+      name: 'Jan.',
+      Budget: 40000,
+      Expense: 30000,
+    },
+    {
+      name: 'Feb.',
+      Budget: 50000,
+      Expense: 40000,
+    },
+    {
+      name: 'Mar.',
+      Budget: 40000,
+      Expense: 40000,
+    },
+    {
+      name: 'Apr.',
+      Budget: 40000,
+      Expense: 30000,
+    },
+    {
+      name: 'May',
+      Budget: 50000,
+      Expense: 40000,
+    },
+    {
+      name: 'June',
+      Budget: 40000,
+      Expense: 40000,
+    },
+    {
+      name: 'July',
+      Budget: 40000,
+      Expense: 30000,
+    },
+    {
+      name: 'Aug.',
+      Budget: 50000,
+      Expense: 40000,
+    },
+    {
+      name: 'Spet.',
+      Budget: 40000,
+      Expense: 40000,
+    },
+    {
+      name: 'Oct.',
+      Budget: 40000,
+      Expense: 30000,
+    },
+    {
+      name: 'Nov.',
+      Budget: 50000,
+      Expense: 40000,
+    },
+    {
+      name: 'Dec.',
+      Budget: 40000,
+      Expense: 40000,
+    },
+  ];
+
+export const quarterlyEarningData =[
   {
-    name: 'Jan',
+    name: 'Oct.',
     Earning: 400000,
   },
   {
-    name: 'Feb',
+    name: 'Nov.',
     Earning: 500000,
   },
   {
-    name: 'Mar',
+    name: 'Dec.',
+    Earning: 600000,
+  },
+]
+
+export const yearlyEarningData =[
+  {
+    name: 'Jan.',
+    Earning: 400000,
+  },
+  {
+    name: 'Feb.',
+    Earning: 500000,
+  },
+  {
+    name: 'Mar.',
+    Earning: 600000,
+  },
+  {
+    name: 'Apr.',
+    Earning: 400000,
+  },
+  {
+    name: 'May.',
+    Earning: 500000,
+  },
+  {
+    name: 'June',
+    Earning: 600000,
+  },
+  {
+    name: 'July',
+    Earning: 400000,
+  },
+  {
+    name: 'Aug.',
+    Earning: 500000,
+  },
+  {
+    name: 'Sept.',
+    Earning: 600000,
+  },
+  {
+    name: 'Oct.',
+    Earning: 400000,
+  },
+  {
+    name: 'Nov.',
+    Earning: 500000,
+  },
+  {
+    name: 'Dec.',
     Earning: 600000,
   },
 ]
