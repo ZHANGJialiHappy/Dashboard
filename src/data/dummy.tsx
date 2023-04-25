@@ -17,7 +17,7 @@ export const revenueData = [
     },
   ];
 
-export const lineChartData = [
+export const usersData = [
   {
     name: 'January',
     Users: 4000,

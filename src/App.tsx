@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './components';
-import { Dashboard, Line } from './pages';
+import { Dashboard, UsersReport } from './pages';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Dashboard/>}/>
-          <Route path="/linechart" element={<Line/>}/>
+          <Route path="/usersreport" element={<UsersReport/>}/>
         </Routes>
       </BrowserRouter>
     </div>

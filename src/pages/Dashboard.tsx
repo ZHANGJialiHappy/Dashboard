@@ -31,7 +31,7 @@ function Dashboard() {
               </div>
               <div className="mt-8">
                 <p className="text-3xl font-semibold">DKK 40,000</p>
-                <p className="text-gray-500 mt-1">Expense</p>
+                <p className="text-gray-400 mt-1">Expense</p>
               </div>
               <LineChart
                 width={300}
@@ -40,7 +40,7 @@ function Dashboard() {
                 margin={{
                   top: 5,
                   right: 30,
-                  left: 20,
+                  left: 5,
                   bottom: 0,
                 }}
               >
