@@ -1,4 +1,4 @@
-import { LineChart, Line, BarChart, Bar } from 'recharts';
+import { LineChart, Line, BarChart, Bar, XAxis } from 'recharts';
 import { earningData, revenueData } from "../data/dummy";
 import earning from "../data/earning.svg"
 
@@ -51,11 +51,13 @@ function Dashboard() {
                 <button className="rounded bg-sky-400 opacity-0.9 text-sky-100 hover:drop-shadow-xl p-2 ">Download Report</button>
               </div>
             </div>
+            <div className="bg-gray-200 self-stretch w-0.5 my-20"></div>
             <div className="m-5">
-            <p className="text-3xl font-semibold mb-20">DKK 40,000</p>
-            <BarChart width={200} height={200} data={earningData}>
-          <Bar dataKey="Earning" fill="#36B4EA" />
-        </BarChart>
+              <p className="text-3xl font-semibold mb-20">Earning</p>
+              <BarChart width={200} height={200} data={earningData}>
+                <XAxis dataKey="name" />
+                <Bar dataKey="Earning" fill="#36B4EA" />
+              </BarChart>
             </div>
 
           </div>

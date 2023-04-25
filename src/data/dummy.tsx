@@ -19,15 +19,15 @@ export const revenueData = [
 
 export const earningData =[
   {
-    name: 'January',
+    name: 'Jan',
     Earning: 400000,
   },
   {
-    name: 'Feburary',
+    name: 'Feb',
     Earning: 500000,
   },
   {
-    name: 'March',
+    name: 'Mar',
     Earning: 600000,
   },
 ]
