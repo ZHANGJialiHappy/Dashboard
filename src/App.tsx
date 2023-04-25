@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
-import Linechart from './pages/Line';
-import Navbar from './components/Navbar';
+import { Navbar } from './components';
+import { Dashboard, Line } from './pages';
 
 function App() {
   return (
@@ -10,8 +9,8 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/linechart" element={<Linechart/>}/>
+          <Route path="/" element={<Dashboard/>}/>
+          <Route path="/linechart" element={<Line/>}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,9 +1,9 @@
-import Linechart from "../components/Charts/Linechart";
+import { Linechart } from "../components";
 
 function Line() {
   return (
-    <div>
-      <Linechart width="100%"/>
+    <div className="mt-5">
+      <Linechart width="100%" horizontal={true} vertical={true}/>
     </div>
   )
 }

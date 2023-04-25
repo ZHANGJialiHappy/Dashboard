@@ -3,14 +3,16 @@ import { lineChartData } from '../../data/dummy';
 
 type Props = {
     width: string;
+    horizontal: boolean;
+    vertical: boolean;
 }
 
-function Linechart({width}: Props) {
+function Linechart({width, horizontal, vertical} : Props) {
   return (
     <ResponsiveContainer width={width} aspect={3}>
       <LineChart
-        width={10}
-        height={30}
+        width={250}
+        height={150}
         data={lineChartData}
         margin={{
           top: 5,
@@ -19,7 +21,7 @@ function Linechart({width}: Props) {
           bottom: 5,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="3 3" horizontal={horizontal} vertical={vertical}/>
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
