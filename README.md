@@ -1,6 +1,6 @@
 ## Inspired by
 
-I designed a admin dashboard, this dashboard is a part of my design.
+I designed an admin dashboard, this dashboard is a part of my design.
 
 ## Stack
 
