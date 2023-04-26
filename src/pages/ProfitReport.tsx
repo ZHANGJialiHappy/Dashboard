@@ -7,7 +7,7 @@ function ProfitReport() {
         <div className="flex justify-center">
             <div>
                 <p className="m-5 text-3xl flex justify-center"> Yearly Profit Analysis</p>
-                <div className="mt-10 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
+                <div className="mt-20 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
                     <div>
                         <RevenueBarchart width={600} height={250} horizontal={true} vertical={true} data={yearlyRevenueData} />
                     </div>
@@ -18,7 +18,7 @@ function ProfitReport() {
                         <p>Exceeded expectations DKK 40,000</p>
                     </div>
                 </div>
-                <div className="mt-10 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
+                <div className="mt-20 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
                     <div>
                         <ExpenseLineChart width={600} height={250} horizontal={true} vertical={true} data={yearlyExpenseData} />
                     </div>
@@ -29,7 +29,7 @@ function ProfitReport() {
                         <p>As expected last year</p>
                     </div>
                 </div>
-                <div className="mt-10 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
+                <div className="mt-20 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
                     <div>
                         <ProfitLineStackedBarChart width={600} height={250} horizontal={true} vertical={true} data={yearlyProfitData} />
                     </div>
