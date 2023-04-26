@@ -20,7 +20,7 @@ export const quarterlyExpenseData = [
   },
   {
     name: '4th',
-    Budget: 40000,
+    Budget: 50000,
     Expense: 40000,
   },
 ];
@@ -235,19 +235,73 @@ export const yearlyProfitData = [
 
 export const usersData = [
   {
-    name: 'January',
+    name: 'Jan.',
     Users: 4000,
     Unsubscribers: 500,
     Trial: 2400,
   },
   {
-    name: 'Feburary',
+    name: 'Feb.',
     Users: 3000,
     Unsubscribers: 400,
     Trial: 2210,
   },
   {
-    name: 'March',
+    name: 'Mar.',
+    Users: 2000,
+    Unsubscribers: 40,
+    Trial: 2290,
+  },
+  {
+    name: 'Apr.',
+    Users: 4000,
+    Unsubscribers: 500,
+    Trial: 2400,
+  },
+  {
+    name: 'May',
+    Users: 3000,
+    Unsubscribers: 400,
+    Trial: 2210,
+  },
+  {
+    name: 'June',
+    Users: 2000,
+    Unsubscribers: 40,
+    Trial: 2290,
+  },
+  {
+    name: 'July',
+    Users: 4000,
+    Unsubscribers: 500,
+    Trial: 2400,
+  },
+  {
+    name: 'Aug.',
+    Users: 3000,
+    Unsubscribers: 400,
+    Trial: 2210,
+  },
+  {
+    name: 'Sep.',
+    Users: 2000,
+    Unsubscribers: 40,
+    Trial: 2290,
+  },
+  {
+    name: 'Oct.',
+    Users: 4000,
+    Unsubscribers: 500,
+    Trial: 2400,
+  },
+  {
+    name: 'Nov.',
+    Users: 3000,
+    Unsubscribers: 400,
+    Trial: 2210,
+  },
+  {
+    name: 'Dec.',
     Users: 2000,
     Unsubscribers: 40,
     Trial: 2290,
@@ -257,12 +311,11 @@ export const usersData = [
 export const usersGrowthData = [
   {
     icon: <RiContactsLine />,
-    amount: '4000',
+    amount: '4,000',
     percentage: '-4%',
     title: 'Users',
     iconColor: '#FFFFFF',
-    iconBg: 'sky-400',
-    iconOp: 'opacity-50',
+    iconBg: '#38bdf8',
     pcColor: 'red-600',
   },
   {
@@ -271,8 +324,7 @@ export const usersGrowthData = [
     percentage: '+23%',
     title: 'Unsubscriber',
     iconColor: '#FFFFFF',
-    iconBg: 'red-600',
-    iconOp: 'opacity-50',
+    iconBg: '#DC2626',
     pcColor: 'green-600',
   },
   {
@@ -281,8 +333,7 @@ export const usersGrowthData = [
     percentage: '+38%',
     title: 'Trial',
     iconColor: '#FFFFFF',
-    iconBg: 'red-600',
-    iconOp: 'opacity-50',
+    iconBg: '#16A34A',
     pcColor: 'green-600',
   },
 ];

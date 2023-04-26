@@ -1,4 +1,4 @@
-import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from "recharts"
+import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts"
 
 type Props = {
     width: number;
@@ -26,6 +26,7 @@ function ExpenseLineChart({width, height, horizontal, vertical, data} : Props) {
                 <CartesianGrid strokeDasharray="10 10" horizontal={horizontal} vertical={vertical} />
                 <XAxis dataKey="name" />
                 <YAxis />
+                <Tooltip />
                 <Line type="monotone" dataKey="Budget" stroke="#36B4EA" activeDot={{ r: 4 }} />
                 <Line type="monotone" dataKey="Expense" stroke="#FF0000" activeDot={{ r: 4 }} />
             </LineChart>

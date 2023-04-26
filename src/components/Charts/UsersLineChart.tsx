@@ -1,19 +1,19 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import { usersData } from '../../data/dummy';
 
 type Props = {
     width: number;
     height: number;
     horizontal: boolean;
     vertical: boolean;
+    data: any;
 }
 
-function UsersLinechart({width, height, horizontal, vertical} : Props) {
+function UsersLinechart({width, height, horizontal, vertical, data} : Props) {
   return (
       <LineChart
         width={width}
         height={height}
-        data={usersData}
+        data={data}
         margin={{
           top: 5,
           right: 30,
