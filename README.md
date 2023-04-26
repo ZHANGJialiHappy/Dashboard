@@ -1,6 +1,7 @@
 ## Inspired by
 
 I designed an admin dashboard, this dashboard is a part of my design.
+![](dashboard.jpg)
 
 ## Stack
 
