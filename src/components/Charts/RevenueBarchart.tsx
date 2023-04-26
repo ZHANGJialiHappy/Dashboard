@@ -1,5 +1,4 @@
-import React from 'react'
-import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 
 type Props = {
     width: number;
@@ -8,16 +7,16 @@ type Props = {
     vertical: boolean;
     data: any[];
 }
-function Barchart({width, height, horizontal, vertical, data} : Props) {
+function RevenueBarchart({width, height, horizontal, vertical, data} : Props) {
   return (
     <BarChart width={width} height={height} data={data}>
        <CartesianGrid strokeDasharray="10 10" horizontal={horizontal} vertical={vertical}/>
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
-    <Bar dataKey="Earning" fill="#36B4EA" />
+    <Bar dataKey="Revenue" fill="#36B4EA" />
   </BarChart>
   )
 }
 
-export default Barchart
+export default RevenueBarchart;

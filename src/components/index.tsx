@@ -1,4 +1,5 @@
 export { default as Navbar } from './Navbar';
 export { default as UsersLineChart } from './Charts/UsersLineChart';
-export { default as Barchart } from './Charts/Barchart';
-export { default as RevenueLineChart } from './Charts/RevenueLineChart';
+export { default as RevenueBarchart } from './Charts/RevenueBarchart';
+export { default as ExpenseLineChart } from './Charts/ExpenseLineChart';
+export { default as ProfitLineStackedBarChart } from './Charts/ProfitLineStackedBarChart';

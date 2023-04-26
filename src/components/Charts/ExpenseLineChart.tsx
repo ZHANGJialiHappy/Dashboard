@@ -8,7 +8,7 @@ type Props = {
     data: any;
 }
 
-function RevenueLineChart({width, height, horizontal, vertical, data} : Props) {
+function ExpenseLineChart({width, height, horizontal, vertical, data} : Props) {
     return (
         <div>
             <LineChart
@@ -33,4 +33,4 @@ function RevenueLineChart({width, height, horizontal, vertical, data} : Props) {
 
     )
 }
-export default RevenueLineChart
+export default ExpenseLineChart;
