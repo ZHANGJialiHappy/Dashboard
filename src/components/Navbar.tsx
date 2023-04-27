@@ -10,6 +10,7 @@ function Navbar() {
         <ul className="menu menu-horizontal px-1">
           <li><Link to="/profitreport">Profit Report</Link></li>
           <li><Link to="/usersreport">Users' Report</Link></li>
+          <li><Link to="/calendar">Calendar</Link></li>
         </ul>
       </div>
     </div>
