@@ -337,3 +337,55 @@ export const usersGrowthData = [
     pcColor: 'green-600',
   },
 ];
+
+export const convertionData = [
+  {
+    name: '11 Dec.',
+    google: 400,
+    facebook: 200,
+    linkedIn: 300,
+    average: 300,
+  },
+  {
+    name: '12 Dec.',
+    google: 500,
+    facebook: 300,
+    linkedIn: 400,
+    average: 400,
+  },
+  {
+    name: '13 Dec.',
+    google: 450,
+    facebook: 350,
+    linkedIn: 450,
+    average: 500,
+  },
+  {
+    name: '14 Dec.',
+    google: 340,
+    facebook: 204,
+    linkedIn: 678,
+    average: 450,
+  },
+  {
+    name: '15 Dec.',
+    google: 460,
+    facebook: 670,
+    linkedIn: 780,
+    average: 670,
+  },
+  {
+    name: '16 Dec.',
+    google: 670,
+    facebook: 340,
+    linkedIn: 580,
+    average: 590,
+  },
+  {
+    name: '17 Dec.',
+    google: 580,
+    facebook: 600,
+    linkedIn: 670,
+    average: 580,
+  },
+];
