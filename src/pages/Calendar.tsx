@@ -3,8 +3,9 @@ import moment from 'moment'
 
 function Calendar() {
     const localizer = momentLocalizer(moment)
+    
   return (
-    <div>
+    <div className="h-screen">
           <BigCalendar
       localizer={localizer}
     //   events={myEventsList}
