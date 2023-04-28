@@ -1,0 +1,7 @@
+.rbc-event{
+    background-color: #36B4EA !important;
+    border-color: #36B4EA !important;
+}
+.rbc-event:focus, .rbc-day-slot .rbc-background-event:focus {
+    outline: 5px auto #05D5E8 !important;;
+}
