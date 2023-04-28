@@ -4,23 +4,28 @@ import './index.css';
 
 const events = [
     {
-    start: moment("2023-04-27T12:00:00").toDate(),
-    end: moment("2023-04-27T15:00:00").toDate(),
+        title: 'My Event',
+        start: new Date('2023-04-30T13:45:00-05:00'),
+        end: new Date('2023-04-30T14:00:00-05:00'),
+    },
+    {
+    start: new Date("2023-04-27T12:00:00"),
+    end: new Date("2023-04-27T15:00:00"),
     title: "Try",
     },
     {
-    start: moment("2023-04-28T12:00:00").toDate(),
-    end: moment("2023-04-28T13:00:00").toDate(),
+    start: new Date("2023-04-28T12:00:00"),
+    end: new Date("2023-04-28T13:00:00"),
     title: "Try2",
     },
     {
-    start: moment("2023-04-28T12:00:00").toDate(),
-    end: moment("2023-04-28T15:00:00").toDate(),
+    start: new Date("2023-04-28T12:00:00"),
+    end: new Date("2023-04-28T15:00:00"),
     title: "Try4",
     },
     {
-    start: moment("2023-04-29T12:00:00").toDate(),
-    end: moment("2023-04-29T13:00:00").toDate(),
+    start: new Date("2023-04-29T12:00:00"),
+    end: new Date("2023-04-29T13:00:00"),
     title: "Try3",
     },
 ]
@@ -33,9 +38,6 @@ function Calendar() {
           <BigCalendar
       localizer={localizer}
       events={events}
-    //   startAccessor="start"
-    //   endAccessor="end"
-    // toolbar={false}
     />
     </div>
   )
