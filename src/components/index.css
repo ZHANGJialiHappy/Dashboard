@@ -1,0 +1,5 @@
+.input:focus {
+    border-color: rgb(156 163 175);
+    outline: 0px solid hsla(var(--bc) / 0.2);
+    outline-offset: 0px;
+}
