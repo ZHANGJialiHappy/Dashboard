@@ -11,6 +11,10 @@ function CalendarDialog() {
         </div>
         <div className="card-body mt-1">
         <input type="text" placeholder="Add title" className="input input-bordered rounded-none w-full text-lg border-0 border-b-2 h-5" />
+        <div className="flex justify-center mt-2">
+        <input type="text" placeholder="From xxxx-xx-xx" className="input input-bordered rounded-none text-sm border-0 border-b-2 h-5" />
+        <input type="text" placeholder="To xxxx-xx-xx" className="input input-bordered rounded-none text-sm border-0 border-b-2 h-5" />
+        </div>
         <textarea className="textarea textarea-bordered" placeholder="Add description"></textarea>
         </div>
       </div>
