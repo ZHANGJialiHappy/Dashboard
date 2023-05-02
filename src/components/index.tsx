@@ -4,4 +4,3 @@ export { default as RevenueBarchart } from './Charts/RevenueBarchart';
 export { default as ExpenseLineChart } from './Charts/ExpenseLineChart';
 export { default as ProfitLineStackedBarChart } from './Charts/ProfitLineStackedBarChart';
 export { default as CalendarDialog } from './CalendarDialog';
-export { default as UsersInMap } from './UsersInMap';

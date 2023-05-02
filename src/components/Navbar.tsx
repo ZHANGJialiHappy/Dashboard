@@ -11,6 +11,8 @@ function Navbar() {
           <li><Link to="/profitreport">Profit Report</Link></li>
           <li><Link to="/usersreport">Users' Report</Link></li>
           <li><Link to="/calendar">Calendar</Link></li>
+          <li><Link to="/map">Map</Link></li>
+
         </ul>
       </div>
     </div>

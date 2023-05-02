@@ -6,17 +6,17 @@ import { CalendarDialog } from '../components';
 const events = [
     {
         title: 'My Event',
-        start: new Date('2023-04-30T13:45:00-05:00'),
-        end: new Date('2023-04-30T14:00:00-05:00'),
+        start: new Date('2023-05-01T13:45:00-05:00'),
+        end: new Date('2023-05-01T14:00:00-05:00'),
     },
     {
-        start: new Date("2023-04-27T12:00:00"),
-        end: new Date("2023-04-27T15:00:00"),
+        start: new Date("2023-05-15T12:00:00"),
+        end: new Date("2023-05-15T15:00:00"),
         title: "Try",
     },
     {
-        start: new Date("2023-04-28T12:00:00"),
-        end: new Date("2023-04-28T13:00:00"),
+        start: new Date("2023-05-28T12:00:00"),
+        end: new Date("2023-05-28T13:00:00"),
         title: "Try2",
     },
     {
