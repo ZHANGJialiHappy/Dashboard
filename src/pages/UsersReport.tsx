@@ -6,7 +6,7 @@ function UsersReport() {
 
     <div className="flex justify-center">
       <div>
-        <p className="m-5 text-3xl flex justify-center"> Yearly Profit Analysis</p>
+        <p className="m-5 text-3xl flex justify-center">Users Analysis</p>
         <div className="mt-20 card card-side m-5 items-center w-auto justify-center bg-base-100 shadow-xl">
           <div>
             <UsersLineChart width={600} height={400} horizontal={true} vertical={true} data={usersData}/>
